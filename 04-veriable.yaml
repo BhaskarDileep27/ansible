@@ -7,8 +7,8 @@
     Duration: "110HRS"
     triner: "subhash"
   tasks:
-  - name: check variables
-    ansible.builtin.debug:
-      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
-      msg: "Hi, I am learning {{Course}}, student name is {{Trainer}}, Duration is {{Duration}}"
+     - name: check variables
+       ansible.builtin.debug:
+         msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
+         msg: "Hi, I am learning {{Course}}, student name is {{Trainer}}, Duration is {{Duration}}"
       
