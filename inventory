@@ -2,6 +2,14 @@
 54.87.52.180
 
 
+[localhost:vars]
+Course="DevOps From inventory"
+Trainer="subhash"
+Duration="110HRS"
+student="dileep"
+PERSON="Siva from inventory"
+WISHES="Morning from inventory"
+
 [web]
 54.87.52.180
 
